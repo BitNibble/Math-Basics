@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  14 FEB 2023 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  14 FEB 2023 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1706,35 +1706,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
 [5] [6]
 Cap\'{\i }tulo 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 7.
 
-Overfull \hbox (5.36743pt too wide) detected at line 30
-[]
- []
-
-
-Overfull \hbox (54.62918pt too wide) in paragraph at lines 3--34
+Overfull \hbox (53.82915pt too wide) in paragraph at lines 4--35
 [] []
  []
 
 ) (file/note-1.tex
-Overfull \hbox (72.254pt too wide) in paragraph at lines 35--1
+Overfull \hbox (71.45396pt too wide) in paragraph at lines 36--1
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 36--1
 
  []
 
 [7
 
-] [8]) (file/comment-1.tex)
+]) (file/comment-1.tex)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[9
+[8
 runsystem(makeindex -s Math-Basics.ist -t Math-Basics.glg -o Math-Basics.gls Ma
 th-Basics.glo)...executed safely (allowed).
 
@@ -1749,28 +1748,32 @@ Package rerunfilecheck Info: File `Math-Basics.out' has not changed.
 (rerunfilecheck)             Checksum: 223A97D9B7F22B6C5FAA955514C52AE5;1575.
  ) 
 Here is how much of TeX's memory you used:
- 59099 strings out of 478659
- 1316879 string characters out of 2855777
- 2151894 words of memory out of 3000000
- 76214 multiletter control sequences out of 15000+600000
- 451082 words of font info for 58 fonts, out of 8000000 for 9000
+ 59124 strings out of 478659
+ 1317133 string characters out of 2855777
+ 2154895 words of memory out of 3000000
+ 76230 multiletter control sequences out of 15000+600000
+ 466697 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,15n,120p,1168b,961s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTe
-X/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/
+X/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/
 lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program
- Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX/fonts/t
+ Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
-m/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Math-Basics.pdf (9 pages, 696722 bytes).
+public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm
+/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Math-Basics.pdf (8 pages, 744682 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
