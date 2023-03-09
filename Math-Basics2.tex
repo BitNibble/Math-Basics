@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% Template for Project/Internship reports, for LEEC and LETI at DEE, ISEP,
+% by Vitor M. R. Cunha - v1.0, May 2021
+% Suggestions and comments are welcomed (vrc at isep dot ipp dot pt).
+%
+% Template provided as is, NO SUPPORT will be given.
+% NO questions related to LaTeX will be answered, go to
+% https://ftp.eq.uc.pt/software/TeX/info/lshort/english/lshort.pdf, or search the web.
+%
+% The DEE document class uses the LaTeX book base class, the original work credits are
+% in the document class file.
+%
+% Overleaf template direct link:
+% https://www.overleaf.com/latex/templates/isep-dee-bsc-latex-template/kqkmqnjbbpvj
+% or go to https://www.overleaf.com/gallery/, and search for: ISEP LEEC
+%
+%%%%%%%%%%%%%%%%%%%% MAIN SETTINGS %%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[
+LEEC,			% Use this option to select your DEE degree, options: LEEC, LETI
+portuguese,		% Select document language, options: portuguese, english draft, Uncomment for draft mode (no pictures, no links, overfull hboxes) 
+]{./Class/DEEclass}
+% Use the 'preamble.tex' file (root folder) do add packages and macros. Keep your main.tex file clean.
+\input{./Config/preamble}	 
+\input{./Config/NewCommands}	 
+%%%%%%%%%%%%%%%%%% REPORT INFORMATION %%%%%%%%%%%%%%%%%%%%
+\input{./File/title_parameter}
+%%%%%%%%%%%%%%%%% USER DEFINED LISTS %%%%%%%%%%%%%%%%%%%%%
+\makeglossaries						% Consider the following files in the 'front' folder:
+\input{./File/0_glossary}			% Edit to define your glossary entries list
+\input{./File/0_acronyms}			% Edit to define your acronyms entries list
+\input{./File/0_symbols}			% Edit to define your symbols entries list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% DOCUMENT %%% DOCUMENT %%% DOCUMENT %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+%%%%%%%%%%%%%%%%%%%%%% FRONTMATTER %%%%%%%%%%%%%%%%%%%%%%%
+% Consider the following front matter sections provided as separate files in the 'front' folder.
+%\include{./File/title}
+% Comment the lines regarding the sections you will not use, or edit the file contents as needed
+%%%%%%%%%%%%%%% DEDICATORIA %%%%%%%%%%%%%%%%
+%\include{./File/1_dedicatory}		% Edit if you want to dedicate your work to someone, or comment this line if not used
+%%%%%%%%%%%% ACKNOWLEDGEMENTS %%%%%%%%%%%%%%
+%\include{./File/2_acknowledgements}	% Edit to add the due acknowledgements, or comment this line if not used
+%%%%%%%%%%%%%%%%%ABSTRACT%%%%%%%%%%%%%%%%%%%
+%\include{./File/3_abstract}			% Edit the file to write the document Abstract. Two languages are always required.
+%%%%%%%%%%%% TABLE OF CONTENTS %%%%%%%%%%%%%
+%\tableofcontents
+%%%%%%%%%%% FRONTMATTER LISTS %%%%%%%%%%%%%%
+%\listoffigures					% Prints the list of figures
+%\listoftables					% Prints the list of tables
+%\printlistoflistings			% Prints the list of listings (source code segments)
+%\printlistofterms				% Prints the list of USED terms (glossary)
+%\printlistofacronyms{XXXXXXXXI}	% Prints the list of USED acronyms
+%\printlistofsymbols				% Prints the list of ALL defined symbols
+%%%%%%%%%%%%%%%%%%%%%%% MAINMATTER %%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter 
+%\pagestyle{thesis} %thesis plain
+\pagestyle{plain} %thesis plain
+% Include the chapters of the document as separate files from the 'chapters' folder
+\input{./File/section-0}
+\input{./File/image-1}
+\input{./File/section-1}
+\input{./File/section-2}
+\input{./File/section-3}
+%\input{./input/images/image-2}
+%\input{./input/examples/example-1}
+\input{./File/section-4}
+\input{./File/Definition-2}
+\input{./File/note-1}
+%%%%%%%%%%%%%%%%%%%%
+\input{./File/comment-1}
+%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%
+\normalsize
+\printrefereces{./File/Bibliography}
+%%%%%%%%%%%%%%%%%%%%%% APPENDIX %%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+% Include the appendices of the document as separate files from the 'chapters' folder
+\include{./File/appendixA}	% Uncomment the lines as you write the appendices,
+%\include{chapters/appendixB}	% or comment the lines if not used
+%%%%%%%%%%%%%%%%%%%%% GLOSSARY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printglossary[style=mylong]
+%\newpage
+%\footnote{Apontamento}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%% END %%% END %%% END %%% END %%% END %%% END %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% COMMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

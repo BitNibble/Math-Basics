@@ -1,0 +1,38 @@
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE DESIGN
+%----------------------------------------------------------------------------------------
+
+\newcommand{\abstraclabel}{Abstract}
+\providecaptionname{english}{\abstraclabel}{Abstract}
+\providecaptionname{portuguese}{\abstraclabel}{Resumo} % Portuguese 
+
+\newcommand{\keywordslabel}{Keywords}
+\providecaptionname{english}{\keywordslabel}{Keywords}
+\providecaptionname{portuguese}{\keywordslabel}{Palavras-Chave} % Portuguese 
+
+\newenvironment{abstract}{
+	\setcounter{page}{1}
+	\checktoopen	
+	\tttypeout{\abstraclabel}
+	\thispagestyle{plain}
+	\chapter*{\abstraclabel}
+	\pdfbookmark[0]{\abstraclabel}{abstract1}	
+	}
+	{
+  	\vfill\null
+}
+
+\newenvironment{secondlangabstract}{
+	\checktoopen
+	\begin{otherlanguage}{\secondLang}
+	\tttypeout{\abstraclabel}
+	\thispagestyle{plain}
+	\chapter*{\abstraclabel}
+	\pdfbookmark[0]{\abstraclabel}{abstract2}
+	}
+	{
+	\end{otherlanguage}
+  	\vfill\null
+}
+	
+	

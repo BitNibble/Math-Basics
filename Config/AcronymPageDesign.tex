@@ -1,0 +1,25 @@
+%----------------------------------------------------------------------------------------
+%	ACRONYMS PAGE DESIGN
+%----------------------------------------------------------------------------------------
+
+\newcommand{\acronymsname}{List of Acronyms}
+\providecaptionname{english,british,american}{\acronymsname}{List of Acronyms}
+\providecaptionname{portuguese}{\acronymsname}{Lista de Acr\'{o}nimos}
+
+\newglossarystyle{leftlong}{%
+  \setglossarystyle{long}%
+  \renewcommand{\glossentry}[2]{%
+    \glsentryitem{##1}\glstarget{##1}{\bfseries \glossentryname{##1}} &
+    \glossentrydesc{##1}\glspostdescription\space ##2\tabularnewline
+  }%
+}
+
+\newcommand{\printlistofacronyms}[1]{
+	\setlist[description]{leftmargin=!, labelwidth=\widthof{#1}} % Change for glossaries
+	\printglossary[title=\acronymsname,type=\acronymtype,nonumberlist]	% Prints the list  
+	\setlist[description]{style=standard} % reset settings back to default
+}
+
+%\setlength\LTleft{0pt}
+%\setlength\glsdescwidth{0.75\hsize}
+

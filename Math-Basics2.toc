@@ -1,0 +1,24 @@
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{Lista de Figuras}{iii}{chapter*.2}%
+\contentsline {chapter}{Lista de Tabelas}{v}{chapter*.3}%
+\contentsline {chapter}{Listagens}{vii}{chapter*.4}%
+\contentsline {chapter}{Lista de Acr\'{o}nimos}{ix}{section*.5}%
+\contentsline {chapter}{Lista de S\'{i}mbolos}{xi}{section*.7}%
+\contentsline {section}{\numberline {0.1}Definition}{4}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}Exponents}{4}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}Rational Exponents:}{4}{subsection.0.1.2}%
+\contentsline {section}{\numberline {0.2}Law}{5}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Exponents}{5}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {0.2.2}Rational Exponents}{5}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {0.2.3}Distributive law}{6}{subsection.0.2.3}%
+\contentsline {subsection}{\numberline {0.2.4}Commutative law}{6}{subsection.0.2.4}%
+\contentsline {section}{\numberline {0.3}Properties}{6}{section.0.3}%
+\contentsline {subsection}{\numberline {0.3.1}Addition}{6}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.2}Multiplication}{6}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {0.3.3}Division}{6}{subsection.0.3.3}%
+\contentsline {section}{\numberline {0.4}Methods}{7}{section.0.4}%
+\contentsline {chapter}{\numberline {1}Definições}{9}{chapter.1}%
+\contentsline {chapter}{Refer\^{e}ncias}{11}{section*.11}%
+\contentsline {chapter}{\numberline {A}Definições}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Física}{15}{appendix.B}%
