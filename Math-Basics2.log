@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  9 MAR 2023 23:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  10 MAR 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,7 +868,35 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 \myheight=\skip79
 \mydepth=\skip80
 )
-(Config/preamble.tex (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(Config/preamble.tex (C:\Program Files\MiKTeX\tex/latex/titlepic\titlepic.sty
+Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
+
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(C:\Program Files\MiKTeX\tex/latex/babelbib\babelbib.sty
+Package: babelbib 2021/01/06 v1.34 babelbib: multilingual bibliographies
+\c@btxromaniannumeral=\count364
+)
+(C:\Program Files\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count365
+\c@@ppsavesec=\count366
+\c@@ppsaveapp=\count367
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks46
+\verbatim@line=\toks47
+\verbatim@in@stream=\read3
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -885,13 +913,13 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count364
-\float@exts=\toks46
+\c@float@type=\count368
+\float@exts=\toks48
 \float@box=\box73
-\@float@everytoks=\toks47
+\@float@everytoks=\toks49
 \@floatcapt=\box74
 )
-Package scrhack Info: loading float hack on input line 11.
+Package scrhack Info: loading float hack on input line 30.
 
 (C:\Program Files\MiKTeX\tex/latex/koma-script\float.hak
 File: float.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package floa
@@ -903,19 +931,19 @@ Package scrhack Info: undefining \float@addtolists on input line 163.
 (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count365
+\multirow@cntb=\count369
 \multirow@dima=\skip82
 \bigstrutjot=\dimen266
 )
 (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count366
-\c@subtable=\count367
+\c@subfigure=\count370
+\c@subtable=\count371
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package scrhack Info: loading lscape hack on input line 14.
+Package scrhack Info: loading lscape hack on input line 33.
 
 (C:\Program Files\MiKTeX\tex/latex/koma-script\lscape.hak
 File: lscape.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package lsc
@@ -923,22 +951,6 @@ ape)
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
 \scrh@LT@textheight=\skip83
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks48
-\verbatim@line=\toks49
-\verbatim@in@stream=\read3
-)
-(C:\Program Files\MiKTeX\tex/latex/babelbib\babelbib.sty
-Package: babelbib 2021/01/06 v1.34 babelbib: multilingual bibliographies
-\c@btxromaniannumeral=\count368
-)
-(C:\Program Files\MiKTeX\tex/latex/appendix\appendix.sty
-Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count369
-\c@@ppsavesec=\count370
-\c@@ppsaveapp=\count371
 )
 (C:\Program Files\MiKTeX\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -1495,12 +1507,7 @@ Package glossaries Info: Writing glossary file Math-Basics2.acnh on input line
 (File/0_acronyms.tex) (File/0_symbols.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 36
-.
-
-(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (Math-Basics2.aux
+ (Math-Basics2.aux
 (File/appendixA.aux))
 \openout1 = `Math-Basics2.aux'.
 
@@ -1895,10 +1902,10 @@ Package rerunfilecheck Info: File `Math-Basics2.out' has not changed.
 (rerunfilecheck)             Checksum: 223AAE8AB9D072E5D5B926B492F0CE1F;1857.
  ) 
 Here is how much of TeX's memory you used:
- 63029 strings out of 478659
- 1453646 string characters out of 2855777
- 2133083 words of memory out of 3000000
- 80067 multiletter control sequences out of 15000+600000
+ 63060 strings out of 478659
+ 1454486 string characters out of 2855777
+ 2133373 words of memory out of 3000000
+ 80092 multiletter control sequences out of 15000+600000
  490048 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,21n,106p,1175b,962s stack positions out of 5000i,500n,10000p,200000b,80000s

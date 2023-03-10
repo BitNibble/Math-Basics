@@ -183,7 +183,7 @@
 
 \RequirePackage{graphicx} % Required to include images
 
-\graphicspath{{image}{image/Logo/}{figure/}} 	% Specifies where to look for included images
+\graphicspath{{Image}{Image/Logo/}{Figure/}} 	% Specifies where to look for included images
 
 \RequirePackage{booktabs} % Required for better table rules
 
