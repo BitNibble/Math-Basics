@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  10 MAR 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.18)  24 MAR 2023 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,14 +872,6 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
 
 )
-(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
 (C:\Program Files\MiKTeX\tex/latex/babelbib\babelbib.sty
 Package: babelbib 2021/01/06 v1.34 babelbib: multilingual bibliographies
 \c@btxromaniannumeral=\count364
@@ -919,7 +911,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks49
 \@floatcapt=\box74
 )
-Package scrhack Info: loading float hack on input line 30.
+Package scrhack Info: loading float hack on input line 38.
 
 (C:\Program Files\MiKTeX\tex/latex/koma-script\float.hak
 File: float.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package floa
@@ -943,7 +935,7 @@ Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package scrhack Info: loading lscape hack on input line 33.
+Package scrhack Info: loading lscape hack on input line 41.
 
 (C:\Program Files\MiKTeX\tex/latex/koma-script\lscape.hak
 File: lscape.hak 2021/11/13 v3.35 KOMA-Script scrhack part (hacking package lsc
@@ -959,19 +951,7 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (C:\Program Files\MiKTeX\tex/latex/realboxes\realboxes.sty
-Package: realboxes 2011/08/08 v0.2 Change box commands to read there content as
- real boxes
-
-(C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box75
-)
-(C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-))
-(C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+) (C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language80
 LaTeX Info: Redefining \_ on input line 43.
@@ -979,7 +959,7 @@ LaTeX Info: Redefining \_ on input line 43.
 (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count372
-\mult@box=\box76
+\mult@box=\box75
 \multicol@leftmargin=\dimen267
 \c@unbalance=\count373
 \c@collectmore=\count374
@@ -992,13 +972,14 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \postmulticols=\dimen271
 \multicolsep=\skip84
 \multicolbaselineskip=\skip85
-\partial@page=\box77
-\last@line=\box78
+\partial@page=\box76
+\last@line=\box77
 \maxbalancingoverflow=\dimen272
-\mult@rightbox=\box79
-\mult@grightbox=\box80
-\mult@firstbox=\box81
-\mult@gfirstbox=\box82
+\mult@rightbox=\box78
+\mult@grightbox=\box79
+\mult@firstbox=\box80
+\mult@gfirstbox=\box81
+\@tempa=\box82
 \@tempa=\box83
 \@tempa=\box84
 \@tempa=\box85
@@ -1034,15 +1015,14 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box115
 \@tempa=\box116
 \@tempa=\box117
-\@tempa=\box118
 \c@minrows=\count378
 \c@columnbadness=\count379
 \c@finalcolumnbadness=\count380
 \last@try=\dimen273
 \multicolovershoot=\dimen274
 \multicolundershoot=\dimen275
-\mult@nat@firstbox=\box119
-\colbreak@box=\box120
+\mult@nat@firstbox=\box118
+\colbreak@box=\box119
 \mc@col@check@num=\count381
 )
 (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
@@ -1064,8 +1044,17 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
 
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
 (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box120
+)
 \tc@llx=\dimen282
 \tc@lly=\dimen283
 \tc@urx=\dimen284
@@ -1507,7 +1496,12 @@ Package glossaries Info: Writing glossary file Math-Basics2.acnh on input line
 (File/0_acronyms.tex) (File/0_symbols.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (Math-Basics2.aux
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 36
+.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (Math-Basics2.aux
 (File/appendixA.aux))
 \openout1 = `Math-Basics2.aux'.
 
@@ -1902,10 +1896,10 @@ Package rerunfilecheck Info: File `Math-Basics2.out' has not changed.
 (rerunfilecheck)             Checksum: 223AAE8AB9D072E5D5B926B492F0CE1F;1857.
  ) 
 Here is how much of TeX's memory you used:
- 63060 strings out of 478659
- 1454486 string characters out of 2855777
- 2133373 words of memory out of 3000000
- 80092 multiletter control sequences out of 15000+600000
+ 63004 strings out of 478659
+ 1453144 string characters out of 2855777
+ 2132999 words of memory out of 3000000
+ 80042 multiletter control sequences out of 15000+600000
  490048 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,21n,106p,1175b,962s stack positions out of 5000i,500n,10000p,200000b,80000s

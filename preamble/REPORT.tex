@@ -6,16 +6,40 @@
 %%		Stable, no issues found yet.
 %%		Note sequence is importante, and beware of clashing
 %%		packages.
+%%
+%%		review: 24032023
+%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\documentclass[titlepage, a4paper, 12pt, fleqn, reqno, openany]{report}
 %%% titlepage, a4paper, 12pt, fleqn , reqno, openany
 \usepackage{titlepic}
-\usepackage[T1]{fontenc}
+\usepackage{etoolbox}
+\usepackage{xparse}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage[portuguese]{babel}
-%%%%%%%%%%%%%FIXED ORDER%%%%%%%%%FIXED ORDER%%%%%%%%%%%%%%
-\usepackage[shortcuts, nopostdot, acronym, toc, nogroupskip, nonumberlist, automake]{glossaries}
 \usepackage{scrbase}
+\usepackage{scrhack}
+\usepackage{longtable}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage[graphicx]{realboxes}
+\usepackage{booktabs}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[autostyle=true]{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage{calc}
+\usepackage{listings}
+%\usepackage[calc,potuguese]{datetime2}
+\usepackage[calc, en-US]{datetime2}
+\usepackage{siunitx}
+\usepackage[shortcuts, nopostdot, acronym, toc, nogroupskip, nonumberlist, automake]{glossaries}
+\usepackage{paralist}
+\usepackage{enumitem}
+%%%%%%%%%%%%%FIXED ORDER%%%%%%%%%FIXED ORDER%%%%%%%%%%%%%%
+%\usepackage[shortcuts, nopostdot, acronym, toc, nogroupskip, nonumberlist, automake]{glossaries}
+%\usepackage{scrbase}
 \usepackage{babelbib}
 %%APPENDIX SETTINGS%%
 %\usepackage[title, toc, titletoc, page]{appendix}
@@ -23,24 +47,24 @@
 %%%%%%%%%%%%%%%%%%%%%
 \usepackage{verbatim}
 \usepackage{url}
-\usepackage{listings}
+%\usepackage{listings}
 %\usepackage[calc, en-US]{datetime2}
-\usepackage{etoolbox}
-\usepackage{xparse}
+%\usepackage{etoolbox}
+%\usepackage{xparse}
 %%%%%%%%%%%%%%%%%%%%%%FIXED ORDER END%%%%%%%%%%%%%%%%%%%%%
 \usepackage[top=2.5cm,left=2cm,right=1cm,bottom=2.5cm]{geometry}
 \usepackage[nottoc]{tocbibind}
-\usepackage[hidelinks]{hyperref}
-\usepackage[usenames, dvipsnames, svgnames, table]{xcolor}
+%\usepackage[hidelinks]{hyperref}
+%\usepackage[usenames, dvipsnames, svgnames, table]{xcolor}
 \usepackage{color,colortbl}
 \usepackage{graphics}
 %\usepackage{graphicx}
-\usepackage[graphicx]{realboxes}
+%\usepackage[graphicx]{realboxes}
 \usepackage{grffile}
-\usepackage{caption} %titulo graphicos
-\usepackage[font=small, labelfont=bf]{caption}
+%\usepackage{caption} %titulo graphicos
+%\usepackage[font=small, labelfont=bf]{caption}
 \usepackage{subcaption}
-\usepackage{lmodern}
+%\usepackage{lmodern}
 \usepackage{hyphenat}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,17 +79,17 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{mathrsfs}
-\usepackage{paralist} %%important compatibility enumxx
+%\usepackage{paralist} %%important compatibility enumxx
 %\usepackage{enumerate} %%conflict never put enumitem with enumerate
-\usepackage{enumitem} %%conflict never put enumitem with enumerate
+%\usepackage{enumitem} %%conflict never put enumitem with enumerate
 \usepackage{multirow}
 \usepackage{lscape}
-\usepackage{scrhack}
+%\usepackage{scrhack}
 \usepackage{longtable}
-\usepackage{booktabs}
-\usepackage[autostyle=true]{csquotes}
-\usepackage{calc}
-\usepackage{siunitx}
+%\usepackage{booktabs}
+%\usepackage[autostyle=true]{csquotes}
+%\usepackage{calc}
+%\usepackage{siunitx}
 \usepackage{setspace}
 \usepackage{lipsum}
 \usepackage{moreverb}

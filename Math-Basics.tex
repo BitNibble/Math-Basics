@@ -1,15 +1,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\documentclass[titlepage, a4paper, 12pt, fleqn, reqno, openany]{report}
-\documentclass[
-LEEC,			% Use this option to select your DEE degree, options: LEEC, LETI
-portuguese,		% Select document language, options: portuguese, english draft, Uncomment for draft mode (no pictures, no links, overfull hboxes) 
-]{./Class/DEEclass}
+\documentclass[titlepage, a4paper, 12pt, fleqn, reqno, openany]{report}
+%\documentclass[
+%LEEC,			% Use this option to select your DEE degree, options: LEEC, LETI
+%portuguese,		% Select document language, options: portuguese, english draft, Uncomment for draft mode (no pictures, no links, overfull hboxes) 
+%]{./Class/DEEclass}
+\input{./preamble/PREAMBLEREPORT}
 %\input{./preamble/REPORT}
-\input{./Config/preamble}
+%\input{./Config/preamble}
 \input{./Config/NewCommands}
-\input{./File/title_parameter}
+%\input{./File/title_parameter}
 \input{./preamble/Glossary}
 \pagestyle{plain} %plain headings empty
+%\setlist{leftmargin=15pt,labelindent=15pt}
+%\setlist[enumerate]{align=left}
 %%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \pagenumbering{arabic} % roman, alph, arabic
