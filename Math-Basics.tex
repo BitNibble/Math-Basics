@@ -1,0 +1,48 @@
+\documentclass[titlepage, a4paper, 12pt, fleqn, reqno, openany]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Comment out things that are not used
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./input/preamble/reportpreamble/ReportPreamble}
+\input{./input/preamble/extrapreamble/ExtraPreamble}
+\input{./input/NewCommand}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./input/reporttitle/ReportTitle_5}
+\input{./input/frontmatter/glossary_2}
+\input{./input/frontmatter/acronym_1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeindex
+\makeglossaries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+						\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+%\include{./include/frontmatter/abstract_0}
+\include{./include/frontmatter/front}
+%%%%%%%%%%%% examples %%%%%%%%%%%%
+%\include{./include/mainmatter/example}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{plain} %plain headings empty
+\setlength{\parindent}{0in}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{./include/mainmatter/section1}
+\include{./include/mainmatter/section2}
+\include{./include/mainmatter/section3}
+\include{./include/mainmatter/section4}
+\include{./include/mainmatter/section5}
+\include{./include/mainmatter/section6}
+
+\bibliography{./bibliography/Bibliography}
+\appendix
+\include{./include/mainmatter/appendix}
+\newpage
+\footnote{Apontamento}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

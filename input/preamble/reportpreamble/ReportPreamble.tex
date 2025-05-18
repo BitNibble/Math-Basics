@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%			PREAMBLE LATEX GENERAL USE
+%%	author: sergio manuel salazar dos santos
+%%	email: sergio.salazar.santos@gmail.com
+%%	Comment:
+%%		Stable, no issues found yet.
+%%		Note sequence is importante, and beware of clatching packages.
+%%
+%%		review: 24032023
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% preloaded:
+% longtable, xcolor, graphicx, booktabs, caption, csquotes, hyperref,
+% calc, listings, datetime2, siunitx, geometry, enumitem
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\usepackage{xparse}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+%\usepackage{inputenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc} % bad behavior
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lmodern}
+\usepackage[portuguese]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{scrbase} % Required for handling language-dependent names of sections/document elements
+\usepackage{scrhack} % Loads fixes for various packages
+\usepackage{longtable} % Required for tables that span multiple pages 
+\usepackage[dvipsnames, svgnames, table]{xcolor} % Required for specifying custom colours
+\usepackage{graphics}
+\usepackage{booktabs} % Required for better table rules, enhances the quality of tables in LaTeX
+\usepackage[autostyle=true]{csquotes}
+\usepackage{calc} % \setcounter, \addtocounter, \setlength, and \addtolength
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings} % \begin{lstlisting}[language=Python] \end{lstlisting} or \lstinputlisting[caption=<name>, language=Octave, firstline=2, lastline=12]{<filename>.m}, personalize \lstdefinestyle{<name>}{<parameter>}
+%\usepackage{listingsutf8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[calc, portuguese]{datetime2} % For date format
+\usepackage{siunitx} % SI units system
+\usepackage{paralist} % Provides enumerate and itemize environments
+\usepackage{makeidx} % Standard package for creating indexes
+\usepackage{titlepic}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\usepackage{hyphsubst}
+\usepackage[top=2cm,left=1.5cm,right=1.2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[graphicx]{realboxes}
+\usepackage{hyphenat}
+\usepackage{color,colortbl}
+\usepackage[dvipsnames, svgnames, table]{xcolor}
+%%%%%%%%%%%%%FIXED ORDER%%%%%%%%%FIXED ORDER%%%%%%%%%%%%%%
+\usepackage[acronym, toc, shortcuts, acronymlists={hidden}, nopostdot, nogroupskip, nonumberlist, automake=immediate]{glossaries} % for lists of terms, acronyms and symbols
+%\usepackage[nottoc]{tocbibind}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[markcase=used]{scrlayer-scrpage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

@@ -1,0 +1,114 @@
+%----------------------------------------------------------------------------------------
+%	TITLE PAGES DESIGN
+%----------------------------------------------------------------------------------------
+
+\newcommand{\university}{Polit\'{e}cnico do Porto}
+\newcommand{\school}{Instituto Superior de Engenharia do Porto}
+\newcommand{\department}{Departamento de Engenharia Eletrot\'{e}cnica}
+\newcommand{\degree}{\Romannum{6}}
+\newcommand{\frontcourselabel}{}
+\newcommand{\aftercourselabel}{}
+\newcommand{\degreeacrn}{}
+
+%BSc
+\newcommand{\degreetemp}{}
+\newcommand{\disclamertemp}{}
+
+\ifbool{LEEC}{
+	\renewcommand{\degreeacrn}{LEEC}
+	\renewcommand{\degreetemp}{Licenciatura em Engenharia Eletrot\'{e}cnica e de Computadores}
+	\providecaptionname{english}{\degreetemp}{Degree in Electrical and Computer Engineering}
+	\providecaptionname{portuguese}{\degreetemp}{Licenciatura em Engenharia Eletrot\'{e}cnica e de Computadores}
+	\renewcommand{\frontcourselabel}{{\large \degreetemp}\\}
+	\renewcommand{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
+	\providecaptionname{english}{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
+	\providecaptionname{portuguese}{\disclamertemp}{Este relat\'{o}rio satisfaz, parcialmente, os requisitos que constam da Ficha de Unidade Curricular de Projeto/Est\'{a}gio, do 3º ano, da }
+	\renewcommand{\aftercourselabel}{\large \textit{\disclamertemp \degreetemp.}\\}			
+}{}
+
+\ifbool{LETI}{
+	\renewcommand{\degreeacrn}{LETI}
+	\renewcommand{\degreetemp}{Licenciatura em Engenharia de Telecomunicações e Informática}
+	\providecaptionname{english}{\degreetemp}{Degree in Telecommunications and Informatics Engineering}
+	\providecaptionname{portuguese}{\degreetemp}{Licenciatura em Engenharia de Telecomunicações e Informática}
+	\renewcommand{\frontcourselabel}{{\large \degreetemp}\\}
+	\renewcommand{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
+	\providecaptionname{english}{\disclamertemp}{This report partially satisfies the requirements defined for the Project/Internship course, in the 3\textsuperscript{rd} year, of the }
+	\providecaptionname{portuguese}{\disclamertemp}{Este relat\'{o}rio satisfaz, parcialmente, os requisitos que constam da Ficha de Unidade Curricular de Projeto/Est\'{a}gio, do 3º ano, da }
+	\renewcommand{\aftercourselabel}{\large \textit{\disclamertemp \degreetemp.}\\}	
+}{}
+
+%%common
+\newcommand{\studentlabel}{Candidate}
+\providecaptionname{english}{\studentlabel}{Candidate}
+\providecaptionname{portuguese}{\studentlabel}{Candidato}
+
+\newcommand{\nblabel}{nb.}
+\providecaptionname{english}{\nblabel}{{No. }}
+\providecaptionname{portuguese}{\nblabel}{{Nº }}
+
+\newcommand{\advisorlabel}{Scientific Guidance}
+\providecaptionname{english}{\advisorlabel}{Scientific Guidance}
+\providecaptionname{portuguese}{\advisorlabel}{Orienta\c{c}\~{a}o Cient\'{i}fica}
+
+\newcommand{\coadvisorlabel}{Scientific Co-Guidance}
+\providecaptionname{english}{\coadvisorlabel}{Scientific Co-Guidance}
+\providecaptionname{portuguese}{\coadvisorlabel}{Coorienta\c{c}\~{a}o Cient\'{i}fica}
+
+\newcommand{\supervisorlabel}{Advisor}
+\providecaptionname{english}{\supervisorlabel}{Advisor}
+\providecaptionname{portuguese}{\supervisorlabel}{Orientador}
+
+\newcommand{\companylabel}{Company}
+\providecaptionname{english}{\companylabel}{Company}
+\providecaptionname{portuguese}{\companylabel}{Empresa}
+
+%%1st page
+\newcommand{\printcoverpage}{
+	\begin{titlepage}
+	\pdfbookmark[0]{Front}{cover}
+	\begin{center}
+	{\scshape\normalsize \university}\\[3mm]
+	{\scshape\LARGE \school}
+	\HRuleFront
+	\vfill		
+	{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+	\ifdefined\rsubtitle {\large \bfseries \rsubtitle} \\ \fi % Report sub title, if exists
+	\vfill
+	{\Large\bf \authorname}\par	
+	\vfill
+	\textbetweenrules[.3pt]{\degreeacrn}
+	\vspace{-8pt}
+	\frontcourselabel
+	\vfill	
+	\includegraphics[width=6.5cm]{ISEP_logo.jpg} \\		
+	{\scshape\large \department}\\
+	{\large \school}\\[1cm]
+	\DTMsetdatestyle{mydateformat}
+	\ifdefined\datename {\normalsize \datename}\\[5mm] \else {\normalsize \today}\\[5mm] \fi
+	\end{center}
+	\end{titlepage}
+}
+
+%%2nd page
+\newcommand{\printaftercoverpage}{
+	\checktoopen
+	\thispagestyle{empty}
+	\begin{center}
+	\vspace*{.2\textheight}	
+	\aftercourselabel	
+	\vfill
+	{{\small\bf\studentlabel:} \large \authorname, \nblabel \stdnumber, \url{\stdemail}}\\[4pt]
+	{{\small\bf\advisorlabel:} \large \advname }\\[4pt]
+	\ifdefined\coadvname {{\small\bf\coadvisorlabel:} \coadvname}\\[4pt] \fi
+	\ifdefined\companyname {{\small\bf\companylabel:} \companyname\\{\small\bf\supervisorlabel:} \supname}\\ \fi
+	\vfill
+	\includegraphics[width=6.5cm]{ISEP_logo.jpg} \\		
+	{\scshape\large \department}\\
+	{\large \school}\\
+	{\normalsize Rua Dr. Ant\'{o}nio Bernardino de Almeida, 431, 4200--072 Porto}\\[1cm]
+	\DTMsetdatestyle{mydateformat}	
+	\ifdefined\datename {\normalsize \datename}\\[5mm] \else {\normalsize \today}\\[5mm] \fi
+	\end{center}
+}
+

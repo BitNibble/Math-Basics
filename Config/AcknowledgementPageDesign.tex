@@ -1,0 +1,21 @@
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS PAGE DESIGN
+%----------------------------------------------------------------------------------------
+
+\newcommand{\acknowledgementname}{Acknowledgements}
+\providecaptionname{english}{\acknowledgementname}{Acknowledgements} % Acknowledgement text for English countries
+\providecaptionname{portuguese}{\acknowledgementname}{Agradecimentos} 
+
+\DeclareDocumentEnvironment{acknowledgements}{}{%
+\checktoopen
+\tttypeout{\acknowledgementname}
+\chapter*{\acknowledgementname}
+\thispagestyle{empty}
+\pdfbookmark[0]{\acknowledgementname}{acknowledgement1}
+}
+{
+\vfil\vfil\null
+\cleardoublepage
+}
+	
+	

@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\btxselectlanguage {portuguese}
+\bibitem {book-2}
+\btxnamefont {\btxlastnamefont {TIPLER}, PAUL\btxfnamespacelong A.} \btxandlong
+  {}\ \btxnamefont {GENE \btxlastnamefont {MOSCA}}\btxauthorcolon\
+  \btxtitlefont {PHYSICS FOR SCIENTISTS AND ENGINEERS, Extended Version fifth
+  edition}.
+\newblock \btxpublisherfont {W. H. Freeman and Company}, 1999.
+
+\end{thebibliography}
