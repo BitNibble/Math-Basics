@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  18 MAY 2025 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  18 MAY 2025 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1796,10 +1796,10 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (Math-Basics.aux (include/frontmatter/front.aux)
-(include/mainmatter/section1.aux) (include/mainmatter/section2.aux)
-(include/mainmatter/section3.aux) (include/mainmatter/section4.aux)
-(include/mainmatter/section5.aux) (include/mainmatter/section6.aux)
-(include/mainmatter/appendix.aux))
+(include/mainmatter/example.aux) (include/mainmatter/section1.aux)
+(include/mainmatter/section2.aux) (include/mainmatter/section3.aux)
+(include/mainmatter/section4.aux) (include/mainmatter/section5.aux)
+(include/mainmatter/section6.aux) (include/mainmatter/appendix.aux))
 \openout1 = `Math-Basics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -1995,9 +1995,35 @@ l.24 \include{./include/frontmatter/front}
 
 
 ]
+\openout2 = `./include/mainmatter/example.aux'.
+
+ (include/mainmatter/example.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 6.
+
+(C:\Users\sergi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\sergi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 7.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+.
+
+(C:\Users\sergi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(input/mainmatter/language/lcd_1/lcd.c)) [2
+
+
+
+]
 \openout2 = `./include/mainmatter/section1.aux'.
 
- (include/mainmatter/section1.tex) [1
+ (include/mainmatter/section1.tex)
+[1
 
 
 
@@ -2026,12 +2052,12 @@ ymbol/MnSymbolA.enc}]
 \openout2 = `./include/mainmatter/section4.aux'.
 
  (include/mainmatter/section4.tex
-<./image/dividebyzero.jpg, id=137, 1303.87125pt x 1677.26625pt>
+<./image/dividebyzero.jpg, id=157, 1303.87125pt x 1677.26625pt>
 File: ./image/dividebyzero.jpg Graphic file (type jpg)
 <use ./image/dividebyzero.jpg>
 Package pdftex.def Info: ./image/dividebyzero.jpg  used on input line 4.
 (pdftex.def)             Requested size: 260.76962pt x 335.44731pt.
-<./image/newgencomputer.jpg, id=138, 1911.14pt x 1589.94pt>
+<./image/newgencomputer.jpg, id=158, 1911.14pt x 1589.94pt>
 File: ./image/newgencomputer.jpg Graphic file (type jpg)
 <use ./image/newgencomputer.jpg>
 Package pdftex.def Info: ./image/newgencomputer.jpg  used on input line 5.
@@ -2046,7 +2072,7 @@ Package pdftex.def Info: ./image/newgencomputer.jpg  used on input line 5.
 
 
 (include/mainmatter/section5.tex (input/mainmatter/image-3.tex
-<./image/upsidedown.jpg, id=145, 2307.62125pt x 1749.53625pt>
+<./image/upsidedown.jpg, id=164, 2307.62125pt x 1749.53625pt>
 File: ./image/upsidedown.jpg Graphic file (type jpg)
 <use ./image/upsidedown.jpg>
 Package pdftex.def Info: ./image/upsidedown.jpg  used on input line 2.
@@ -2086,7 +2112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 
  <./image/upsidedown.jpg>]
-<./image/squareproperty.png, id=150, 436.63126pt x 432.61626pt>
+<./image/squareproperty.png, id=169, 436.63126pt x 432.61626pt>
 File: ./image/squareproperty.png Graphic file (type png)
 <use ./image/squareproperty.png>
 Package pdftex.def Info: ./image/squareproperty.png  used on input line 11.
@@ -2112,7 +2138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 [7 <./image/squareproperty.png>] (input/mainmatter/example-2.tex
-<./image/derivativeasy_1.jpg, id=157, 2870.725pt x 1653.17625pt>
+<./image/derivativeasy_1.jpg, id=176, 2870.725pt x 1653.17625pt>
 File: ./image/derivativeasy_1.jpg Graphic file (type jpg)
 <use ./image/derivativeasy_1.jpg>
 Package pdftex.def Info: ./image/derivativeasy_1.jpg  used on input line 2.
@@ -2123,7 +2149,7 @@ Overfull \hbox (100.1582pt too wide) in paragraph at lines 2--3
  []
 
 ) [8 <./image/derivativeasy_1.jpg>] (input/mainmatter/example-3.tex
-<./image/derivativeasy_2.jpg, id=162, 2046.64626pt x 2704.1025pt>
+<./image/derivativeasy_2.jpg, id=181, 2046.64626pt x 2704.1025pt>
 File: ./image/derivativeasy_2.jpg Graphic file (type jpg)
 <use ./image/derivativeasy_2.jpg>
 Package pdftex.def Info: ./image/derivativeasy_2.jpg  used on input line 2.
@@ -2230,7 +2256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
-<./image/General/Einstein.jpg, id=199, 255.95625pt x 179.16937pt>
+<./image/General/Einstein.jpg, id=218, 255.95625pt x 179.16937pt>
 File: ./image/General/Einstein.jpg Graphic file (type jpg)
 <use ./image/General/Einstein.jpg>
 Package pdftex.def Info: ./image/General/Einstein.jpg  used on input line 78.
@@ -2260,10 +2286,10 @@ This document will not have a glossary.
 
 
 ] (Math-Basics.aux (include/frontmatter/front.aux)
-(include/mainmatter/section1.aux) (include/mainmatter/section2.aux)
-(include/mainmatter/section3.aux) (include/mainmatter/section4.aux)
-(include/mainmatter/section5.aux) (include/mainmatter/section6.aux)
-(include/mainmatter/appendix.aux))
+(include/mainmatter/example.aux) (include/mainmatter/section1.aux)
+(include/mainmatter/section2.aux) (include/mainmatter/section3.aux)
+(include/mainmatter/section4.aux) (include/mainmatter/section5.aux)
+(include/mainmatter/section6.aux) (include/mainmatter/appendix.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2271,16 +2297,16 @@ L3 programming layer <2020/03/25>
 Package rerunfilecheck Info: File `Math-Basics.out' has not changed.
 (rerunfilecheck)             Checksum: 99E557B38C7FF115C257CE0AD579FD04;1636.
 Package rerunfilecheck Info: File `Math-Basics.brf' has not changed.
-(rerunfilecheck)             Checksum: 4E0253A3AFD5BD6B5449575D33FC9310;82.
+(rerunfilecheck)             Checksum: A432CC2D5594B066F4AED42F789BF6EF;82.
  ) 
 Here is how much of TeX's memory you used:
- 68335 strings out of 474486
- 1558685 string characters out of 5743756
- 2345863 words of memory out of 5000000
- 89483 multiletter control sequences out of 15000+600000
- 669956 words of font info for 153 fonts, out of 8000000 for 9000
+ 68860 strings out of 474486
+ 1566738 string characters out of 5743756
+ 2510170 words of memory out of 5000000
+ 89971 multiletter control sequences out of 15000+600000
+ 673581 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,21n,134p,2431b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,21n,134p,2431b,1487s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sergi/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnS
 ymbol10.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fonts/type1/public/mn
 symbol/MnSymbol12.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -2293,15 +2319,17 @@ MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/sergi/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/sergi/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/sergi/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/sergi/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/lm/lmr7.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmri12.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmri8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sergi/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Math-Basics.pdf (17 pages, 2922755 bytes).
+eX/fonts/type1/public/lm/lmr6.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmr7.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmr8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmri12.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmri8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmtt10.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sergi/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
+Output written on Math-Basics.pdf (18 pages, 2980079 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
