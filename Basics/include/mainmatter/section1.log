@@ -1,0 +1,288 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  1 JUN 2025 23:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./section1.tex
+(section1.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+! Undefined control sequence.
+l.1 \section
+            {Definition}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{D
+              efinition}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.2 \Large
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \subsection
+               {Exponents}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--5
+[] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+! Undefined control sequence.
+l.8 ..... \; n \quad factors \qquad (n \in \mathbb
+                                                  {N}, \; a \in \mathbb{R})\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 ... \qquad (n \in \mathbb{N}, \; a \in \mathbb
+                                                  {R})\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (197.25659pt too wide) detected at line 8
+\OML/cmm/m/it/10 a[]  \OT1/cmr/m/n/10 =  \OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^
+B \OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^B \OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^
+^B \OML/cmm/m/it/10 a :::: n factors \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n \OMS/c
+msy/m/n/10 2 \OML/cmm/m/it/10 N;  a \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 R\OT1/c
+mr/m/n/10 )
+ []
+
+! Undefined control sequence.
+l.10 ...; = \; \frac{1}{a^m} \qquad (m \in \mathbb
+                                                  {Z^+}, \; a \in \mathbb{R}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 ...quad (m \in \mathbb{Z^+}, \; a \in \mathbb
+                                                  {R}, \; a \neq 0)\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (159.5048pt too wide) detected at line 10
+\OML/cmm/m/it/10 a[]  \OT1/cmr/m/n/10 =  [] (\OML/cmm/m/it/10 m \OMS/cmsy/m/n/1
+0 2 []\OML/cmm/m/it/10 ;  a \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 R;  a \OMS/cmsy
+/m/n/10 6\OT1/cmr/m/n/10 = 0)
+ []
+
+
+Overfull \hbox (50.50134pt too wide) detected at line 11
+ \OML/cmm/m/it/10 and \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (138.66092pt too wide) detected at line 12
+ []  \OT1/cmr/m/n/10 =  \OML/cmm/m/it/10 a[]
+ []
+
+! Undefined control sequence.
+l.14 	\[a^0=1 \qquad (a \in \mathbb
+                                   {R}, \; a \neq 0)\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (91.90245pt too wide) detected at line 14
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 1 (\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 2
+ \OML/cmm/m/it/10 R;  a \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 0)
+ []
+
+! Undefined control sequence.
+l.17 \subsection
+                {Rational Exponents:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+! Undefined control sequence.
+l.20 ...\; r \qquad (a \; > \; 0, \; n \in \mathbb
+                                                  {N}, \; n \geqslant 2, \; ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 ... \; 0, \; n \in \mathbb{N}, \; n \geqslant
+                                                   2, \; r \; > \; 0), \; \L...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (229.53468pt too wide) detected at line 20
+[][]  \OT1/cmr/m/n/10 =  \OML/cmm/m/it/10 r \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a
+  >  \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ;  n \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10
+ N;  n\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ;  r  >  \OT1/cmr/m/n/10 0)\OML/cmm/m/i
+t/10 ;  \OMS/cmsy/m/n/10 ([])  \OML/cmm/m/it/10 r[]  \OT1/cmr/m/n/10 =  \OML/cm
+m/m/it/10 a
+ []
+
+! Undefined control sequence.
+l.22 ...a}; \qquad (a \; > \; 0, \; n \; \geqslant
+                                                   2, \; n \in \mathbb{N})\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 ...; 0, \; n \; \geqslant 2, \; n \in \mathbb
+                                                  {N})\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (143.69455pt too wide) detected at line 22
+\OML/cmm/m/it/10 a[]  \OT1/cmr/m/n/10 =  [][];  (\OML/cmm/m/it/10 a  >  \OT1/cm
+r/m/n/10 0\OML/cmm/m/it/10 ;  n \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ;  n \OMS/cms
+y/m/n/10 2 \OML/cmm/m/it/10 N\OT1/cmr/m/n/10 )
+ []
+
+! Undefined control sequence.
+l.24 ...a \; > \; 0, \; n \; > 0, \; n \in \mathbb
+                                                  {N} )\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (172.17949pt too wide) detected at line 24
+\OML/cmm/m/it/10 a[]  \OT1/cmr/m/n/10 =  [][];  (\OML/cmm/m/it/10 a  >  \OT1/cm
+r/m/n/10 0\OML/cmm/m/it/10 ;  n  > \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ;  n \OMS/
+cmsy/m/n/10 2 \OML/cmm/m/it/10 N\OT1/cmr/m/n/10 )
+ []
+
+! Undefined control sequence.
+l.26 ...qquad (a \; > \; 0; \; m, \; n \in \mathbb
+                                                  {Z}, \; n \geqslant 2 )\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 ... \; m, \; n \in \mathbb{Z}, \; n \geqslant
+                                                   2 )\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (164.1125pt too wide) detected at line 26
+\OML/cmm/m/it/10 a[]  \OT1/cmr/m/n/10 =  [][];  (\OML/cmm/m/it/10 a  >  \OT1/cm
+r/m/n/10 0;  \OML/cmm/m/it/10 m;  n \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 Z;  n\O
+T1/cmr/m/n/10 2)
+ []
+
+)
+! Emergency stop.
+<*> ./section1.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24 strings out of 474486
+ 545 string characters out of 5743756
+ 1928542 words of memory out of 5000000
+ 22410 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,5n,22p,193b,116s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

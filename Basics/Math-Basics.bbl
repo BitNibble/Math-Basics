@@ -13,6 +13,12 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \btxselectlanguage {portuguese}
+\bibitem {book-12}
+\btxnamefont {\btxlastnamefont {Machado}, V.\btxfnamespacelong
+  A.\btxfnamespacelong Tenreiro}\btxauthorcolon\ \btxtitlefont {Teoria Dos
+  Sistemas de Controlo}.
+\newblock \btxpublisherfont {Instituto Superior de Engenharia do Porto}, 1999.
+
 \bibitem {book-2}
 \btxnamefont {\btxlastnamefont {TIPLER}, PAUL\btxfnamespacelong A.} \btxandlong
   {}\ \btxnamefont {GENE \btxlastnamefont {MOSCA}}\btxauthorcolon\
