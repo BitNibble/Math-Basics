@@ -18,4 +18,6 @@
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
-\contentsline {chapter}{\numberline {A}Anexos}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Triangle Theorems and Formulas}{14}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Electric Definition}{18}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Physics}{19}{appendix.C}%

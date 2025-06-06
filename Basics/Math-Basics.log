@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  1 JUN 2025 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  6 JUN 2025 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1952,7 +1952,7 @@ Overfull \hbox (16.69992pt too wide) in paragraph at lines 24--24
  [][] 
  []
 
-<./image/doubts.jpg, id=66, 1741.50626pt x 1741.50626pt>
+<./image/doubts.jpg, id=74, 1741.50626pt x 1741.50626pt>
 File: ./image/doubts.jpg Graphic file (type jpg)
 <use ./image/doubts.jpg>
 Package pdftex.def Info: ./image/doubts.jpg  used on input line 24.
@@ -2026,12 +2026,12 @@ ymbol/MnSymbolA.enc}]
 \openout2 = `./include/mainmatter/section4.aux'.
 
  (include/mainmatter/section4.tex
-<./image/dividebyzero.jpg, id=137, 1303.87125pt x 1677.26625pt>
+<./image/dividebyzero.jpg, id=147, 1303.87125pt x 1677.26625pt>
 File: ./image/dividebyzero.jpg Graphic file (type jpg)
 <use ./image/dividebyzero.jpg>
 Package pdftex.def Info: ./image/dividebyzero.jpg  used on input line 4.
 (pdftex.def)             Requested size: 260.76962pt x 335.44731pt.
-<./image/newgencomputer.jpg, id=138, 1911.14pt x 1589.94pt>
+<./image/newgencomputer.jpg, id=148, 1911.14pt x 1589.94pt>
 File: ./image/newgencomputer.jpg Graphic file (type jpg)
 <use ./image/newgencomputer.jpg>
 Package pdftex.def Info: ./image/newgencomputer.jpg  used on input line 5.
@@ -2045,39 +2045,39 @@ Package pdftex.def Info: ./image/newgencomputer.jpg  used on input line 5.
 \openout2 = `./include/mainmatter/section5.aux'.
 
 
-(include/mainmatter/section5.tex (input/mainmatter/image-3.tex
-<./image/upsidedown.jpg, id=145, 2307.62125pt x 1749.53625pt>
+(include/mainmatter/section5.tex
+<./image/upsidedown.jpg, id=155, 2307.62125pt x 1749.53625pt>
 File: ./image/upsidedown.jpg Graphic file (type jpg)
 <use ./image/upsidedown.jpg>
-Package pdftex.def Info: ./image/upsidedown.jpg  used on input line 2.
+Package pdftex.def Info: ./image/upsidedown.jpg  used on input line 3.
 (pdftex.def)             Requested size: 461.51608pt x 349.90105pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
@@ -2086,33 +2086,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
 
  <./image/upsidedown.jpg>]
-<./image/squareproperty.png, id=152, 436.63126pt x 432.61626pt>
+<./image/squareproperty.png, id=162, 436.63126pt x 432.61626pt>
 File: ./image/squareproperty.png Graphic file (type png)
 <use ./image/squareproperty.png>
-Package pdftex.def Info: ./image/squareproperty.png  used on input line 11.
+Package pdftex.def Info: ./image/squareproperty.png  used on input line 14.
 (pdftex.def)             Requested size: 218.3151pt x 216.3076pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--21
+Underfull \hbox (badness 10000) in paragraph at lines 11--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[7 <./image/squareproperty.png>] (input/mainmatter/example-2.tex
-<./image/derivativeasy_1.jpg, id=159, 2870.725pt x 1653.17625pt>
+[7 <./image/squareproperty.png>] (input/mainmatter/example/example-2.tex
+<./image/derivativeasy_1.jpg, id=169, 2870.725pt x 1653.17625pt>
 File: ./image/derivativeasy_1.jpg Graphic file (type jpg)
 <use ./image/derivativeasy_1.jpg>
 Package pdftex.def Info: ./image/derivativeasy_1.jpg  used on input line 2.
@@ -2122,8 +2122,8 @@ Overfull \hbox (100.1582pt too wide) in paragraph at lines 2--3
 [][] 
  []
 
-) [8 <./image/derivativeasy_1.jpg>] (input/mainmatter/example-3.tex
-<./image/derivativeasy_2.jpg, id=164, 2046.64626pt x 2704.1025pt>
+) [8 <./image/derivativeasy_1.jpg>] (input/mainmatter/example/example-3.tex
+<./image/derivativeasy_2.jpg, id=174, 2046.64626pt x 2704.1025pt>
 File: ./image/derivativeasy_2.jpg Graphic file (type jpg)
 <use ./image/derivativeasy_2.jpg>
 Package pdftex.def Info: ./image/derivativeasy_2.jpg  used on input line 2.
@@ -2165,98 +2165,108 @@ babelbib: Using the BibTeX style's default font for `numeral'.
 ]
 \openout2 = `./include/mainmatter/appendix.aux'.
 
- (include/mainmatter/appendix.tex
+ (include/mainmatter/appendix.tex (input/mainmatter/appendix/triangle.tex [13
+
+
+]
 Ap\^endice A.
-(input/mainmatter/Definition-2.tex
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 3--34
+[14
+
+] [15] [16]) (input/mainmatter/appendix/Definition-2.tex [17]
+Ap\^endice B.
+
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 4--35
 [] []
  []
 
 )
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 35--9
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 36--10
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--9
+Underfull \hbox (badness 10000) in paragraph at lines 36--10
 
  []
 
-[13
+[18
 
+] (input/mainmatter/appendix/Physic-1.tex
+Ap\^endice C.
 
-] (input/mainmatter/Physic-1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
-<./image/General/Einstein.jpg, id=202, 255.95625pt x 179.16937pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+<./image/General/Einstein.jpg, id=256, 255.95625pt x 179.16937pt>
 File: ./image/General/Einstein.jpg Graphic file (type jpg)
 <use ./image/General/Einstein.jpg>
-Package pdftex.def Info: ./image/General/Einstein.jpg  used on input line 78.
+Package pdftex.def Info: ./image/General/Einstein.jpg  used on input line 79.
 (pdftex.def)             Requested size: 153.57492pt x 107.50244pt.
 ))
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 9--43
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 10--43
 []$ $[]$ 
  []
 
 
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 9--43
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 10--43
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--43
+Underfull \hbox (badness 10000) in paragraph at lines 10--43
 
  []
 
-[14 <./image/General/Einstein.jpg>]
+[19
+
+ <./image/General/Einstein.jpg>] [20]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[15
+[21
 
 
 ] (Math-Basics.aux (include/frontmatter/front.aux)
@@ -2269,15 +2279,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Math-Basics.out' has not changed.
-(rerunfilecheck)             Checksum: 99E557B38C7FF115C257CE0AD579FD04;1636.
+(rerunfilecheck)             Checksum: 6BD5A5424B9172EA87AEA0001E78E616;1988.
 Package rerunfilecheck Info: File `Math-Basics.brf' has not changed.
-(rerunfilecheck)             Checksum: 6EC854E7E6375478FC37C1F805A1B943;123.
+(rerunfilecheck)             Checksum: 4FAC2A75031A2E70514997263F00CF9E;124.
  ) 
 Here is how much of TeX's memory you used:
- 68340 strings out of 474486
- 1559103 string characters out of 5743756
- 2345892 words of memory out of 5000000
- 89487 multiletter control sequences out of 15000+600000
+ 68374 strings out of 474486
+ 1559842 string characters out of 5743756
+ 2345894 words of memory out of 5000000
+ 89489 multiletter control sequences out of 15000+600000
  669956 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,21n,134p,2431b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2299,9 +2309,9 @@ onts/type1/public/lm/lmri12.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/lm/lmri8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sergi/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Math-Basics.pdf (17 pages, 2923863 bytes).
+Output written on Math-Basics.pdf (23 pages, 2939915 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
