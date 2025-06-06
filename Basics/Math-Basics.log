@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  6 JUN 2025 10:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.1)  6 JUN 2025 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2170,9 +2170,15 @@ babelbib: Using the BibTeX style's default font for `numeral'.
 
 ]
 Ap\^endice A.
+<./image/Triangle-Formula.jpg, id=203, 271.76532pt x 187.45032pt>
+File: ./image/Triangle-Formula.jpg Graphic file (type jpg)
+<use ./image/Triangle-Formula.jpg>
+Package pdftex.def Info: ./image/Triangle-Formula.jpg  used on input line 3.
+(pdftex.def)             Requested size: 271.76465pt x 187.44984pt.
 [14
 
-] [15] [16]) (input/mainmatter/appendix/Definition-2.tex [17]
+ <./image/Triangle-Formula.jpg>] [15] [16])
+(input/mainmatter/appendix/Definition-2.tex [17]
 Ap\^endice B.
 
 Overfull \hbox (2.61105pt too wide) in paragraph at lines 4--35
@@ -2238,7 +2244,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
-<./image/General/Einstein.jpg, id=256, 255.95625pt x 179.16937pt>
+<./image/General/Einstein.jpg, id=258, 255.95625pt x 179.16937pt>
 File: ./image/General/Einstein.jpg Graphic file (type jpg)
 <use ./image/General/Einstein.jpg>
 Package pdftex.def Info: ./image/General/Einstein.jpg  used on input line 79.
@@ -2281,13 +2287,13 @@ L3 programming layer <2020/03/25>
 Package rerunfilecheck Info: File `Math-Basics.out' has not changed.
 (rerunfilecheck)             Checksum: 6BD5A5424B9172EA87AEA0001E78E616;1988.
 Package rerunfilecheck Info: File `Math-Basics.brf' has not changed.
-(rerunfilecheck)             Checksum: 4FAC2A75031A2E70514997263F00CF9E;124.
+(rerunfilecheck)             Checksum: 9810EA0E0872C6F211ABB13E4CC529CB;124.
  ) 
 Here is how much of TeX's memory you used:
- 68374 strings out of 474486
- 1559842 string characters out of 5743756
+ 68382 strings out of 474486
+ 1560103 string characters out of 5743756
  2345894 words of memory out of 5000000
- 89489 multiletter control sequences out of 15000+600000
+ 89496 multiletter control sequences out of 15000+600000
  669956 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,21n,134p,2431b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2309,9 +2315,9 @@ onts/type1/public/lm/lmri12.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/lm/lmri8.pfb><C:/Users/sergi/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sergi/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Math-Basics.pdf (23 pages, 2939915 bytes).
+Output written on Math-Basics.pdf (23 pages, 2969671 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
