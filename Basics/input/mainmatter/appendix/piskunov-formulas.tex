@@ -1,0 +1,209 @@
+\documentclass[fleqn]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\usepackage{titlesec}
+\setlength{\mathindent}{0pt}
+\pagestyle{empty}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Piskunov's Calculus Formulas}}\\[6pt]
+  \rule{\linewidth}{0.5pt}
+\end{center}
+
+\begin{multicols}{2}
+\small
+
+\section*{1. Limits and Continuity}
+\[
+\lim_{x \to a} f(x) = L
+\]
+\[
+\lim_{x \to a} [f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x)
+\]
+\[
+\lim_{x \to a} [f(x) \cdot g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)
+\]
+\[
+\lim_{x \to a} \left[ \frac{f(x)}{g(x)} \right] = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)} \quad \text{if } \lim_{x \to a} g(x) \ne 0
+\]
+
+\section*{2. Derivatives}
+\[
+\frac{d}{dx}(c) = 0
+\]
+\[
+\frac{d}{dx}(x^n) = nx^{n-1}
+\]
+\[
+\frac{d}{dx}(\sin x) = \cos x
+\]
+\[
+\frac{d}{dx}(\cos x) = -\sin x
+\]
+\[
+\frac{d}{dx}(e^x) = e^x
+\]
+\[
+\frac{d}{dx}(\ln x) = \frac{1}{x}
+\]
+
+\section*{3. Rules of Differentiation}
+\[
+\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)
+\]
+\[
+\frac{d}{dx}\left[ \frac{f(x)}{g(x)} \right] = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}
+\]
+\[
+\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)
+\]
+
+\section*{4. Higher-Order Derivatives}
+\[
+f''(x) = \frac{d^2f}{dx^2}
+\]
+\[
+f^{(n)}(x) = \frac{d^n f}{dx^n}
+\]
+
+\section*{5. Taylor and Maclaurin Series}
+\[
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
+\]
+\[
+\text{Maclaurin: } a = 0
+\]
+
+\section*{6. Indefinite Integrals}
+\[
+\int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (n \ne -1)
+\]
+\[
+\int \frac{1}{x} dx = \ln|x| + C
+\]
+\[
+\int e^x dx = e^x + C
+\]
+\[
+\int \sin x dx = -\cos x + C
+\]
+\[
+\int \cos x dx = \sin x + C
+\]
+
+\section*{7. Definite Integrals}
+\[
+\int_a^b f(x) dx = F(b) - F(a)
+\]
+
+\section*{8. Techniques of Integration}
+\textbf{Integration by Parts:}
+\[
+\int u \, dv = uv - \int v \, du
+\]
+\textbf{Substitution:}
+\[
+\int f(g(x))g'(x) dx = \int f(u) du
+\]
+
+\section*{9. Differential Equations}
+\textbf{First-Order Linear:}
+\[
+\frac{dy}{dx} + P(x)y = Q(x)
+\]
+\textbf{Integrating Factor:}
+\[
+\mu(x) = e^{\int P(x) dx}
+\]
+\textbf{Solution:}
+\[
+y(x) = \frac{1}{\mu(x)} \left( \int \mu(x) Q(x) dx + C \right)
+\]
+
+\section*{10. Multiple Integrals}
+\textbf{Double Integral:}
+\[
+\iint_R f(x, y) \, dx \, dy
+\]
+\textbf{Triple Integral:}
+\[
+\iiint_V f(x, y, z) \, dx \, dy \, dz
+\]
+
+\section*{11. Line and Surface Integrals}
+\textbf{Line Integral:}
+\[
+\int_C \vec{F} \cdot d\vec{r}
+\]
+\textbf{Surface Integral:}
+\[
+\iint_S \vec{F} \cdot d\vec{S}
+\]
+
+\section*{12. Series}
+\textbf{Geometric Series:}
+\[
+\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r} \quad (|r| < 1)
+\]
+\textbf{Taylor Series:}
+\[
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x - a)^n
+\]
+
+\section*{13. Fourier Series}
+\[
+f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos\left( \frac{n\pi x}{L} \right) + b_n \sin\left( \frac{n\pi x}{L} \right) \right]
+\]
+\[
+a_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos\left( \frac{n\pi x}{L} \right) dx
+\]
+\[
+b_n = \frac{1}{L} \int_{-L}^{L} f(x) \sin\left( \frac{n\pi x}{L} \right) dx
+\]
+
+\section*{14. Laplace Transforms}
+\[
+\mathcal{L}\{f(t)\} = \int_0^{\infty} e^{-st} f(t) dt
+\]
+\[
+\mathcal{L}\{1\} = \frac{1}{s}, \quad \mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}, \quad \mathcal{L}\{e^{at}\} = \frac{1}{s - a}
+\]
+\[
+\mathcal{L}\{\sin(\omega t)\} = \frac{\omega}{s^2 + \omega^2}, \quad \mathcal{L}\{\cos(\omega t)\} = \frac{s}{s^2 + \omega^2}
+\]
+
+\section*{15. Probability and Statistics}
+\textbf{Mean:}
+\[
+\mu = \frac{1}{n} \sum_{i=1}^{n} x_i
+\]
+\textbf{Variance:}
+\[
+\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2
+\]
+
+\section*{16. Matrices}
+\textbf{Determinant of 2x2 Matrix:}
+\[
+\begin{vmatrix}
+a & b \\
+c & d \\
+\end{vmatrix} = ad - bc
+\]
+\textbf{Inverse of 2x2 Matrix:}
+\[
+A^{-1} = \frac{1}{ad - bc}
+\begin{bmatrix}
+d & -b \\
+-c & a \\
+\end{bmatrix}
+\]
+
+\end{multicols}
+
+\end{document}

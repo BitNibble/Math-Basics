@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\title{Bond Graph Method: Principles, Rules, and Notation}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+The \textbf{Bond Graph Method} is a graphical modeling approach used to represent physical dynamic systems across multiple domains (mechanical, electrical, hydraulic, thermal, etc.). It focuses on the flow of energy and power rather than force or current alone.
+
+\section*{Core Concepts}
+\begin{itemize}
+    \item \textbf{Power}: The product of \textit{effort} and \textit{flow}.
+    \item \textbf{Effort and Flow Variables}:
+    \begin{itemize}
+        \item \textbf{Mechanical (translational)}: Force (effort), Velocity (flow)
+        \item \textbf{Electrical}: Voltage (effort), Current (flow)
+        \item \textbf{Hydraulic}: Pressure (effort), Flow rate (flow)
+        \item \textbf{Rotational}: Torque (effort), Angular velocity (flow)
+    \end{itemize}
+    \item \textbf{Bond}: Represents a bidirectional energy exchange.
+    \item Bonds are annotated with a half-arrow to indicate positive power direction.
+\end{itemize}
+
+\section*{Elements of Bond Graphs}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{1-Port Elements}:
+    \begin{itemize}
+        \item \textbf{C}: Capacitor / compliance (stores energy)
+        \item \textbf{I}: Inertia / inductance (stores kinetic energy)
+        \item \textbf{R}: Resistance / dissipative element
+        \item \textbf{Se}: Source of effort
+        \item \textbf{Sf}: Source of flow
+    \end{itemize}
+
+    \item \textbf{2-Port Elements}:
+    \begin{itemize}
+        \item \textbf{TF}: Transformer (conserves power)
+        \item \textbf{GY}: Gyrator (cross-domain power conversion)
+    \end{itemize}
+
+    \item \textbf{Junctions}:
+    \begin{itemize}
+        \item \textbf{0-junction}: Common effort (parallel connection)
+        \item \textbf{1-junction}: Common flow (series connection)
+    \end{itemize}
+\end{itemize}
+\end{multicols}
+
+\section*{Causality}
+Each element in a bond graph must define a causal relationship:
+\begin{itemize}
+    \item Causality is shown by a \textbf{stroke (|)} on one end of a bond:
+    \begin{itemize}
+        \item Stroke on the side of the effort variable → the element imposes \textit{flow}.
+        \item Stroke on the side of the flow variable → the element imposes \textit{effort}.
+    \end{itemize}
+    \item Causal rules:
+    \begin{itemize}
+        \item \textbf{C} and \textbf{I} prefer integral causality.
+        \item \textbf{R}, \textbf{Se}, \textbf{Sf} have fixed causality.
+    \end{itemize}
+\end{itemize}
+
+\section*{Bond Graph Notation}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \textbf{Bond}: \verb|---->| (with half-arrow)
+    \item \textbf{Effort source (Se)}: Circle with an E
+    \item \textbf{Flow source (Sf)}: Circle with an F
+    \item \textbf{0-junction}: Solid circle labeled 0
+    \item \textbf{1-junction}: Solid circle labeled 1
+    \item \textbf{C, I, R}: Boxes with respective labels
+    \item \textbf{TF/GY}: Box labeled TF or GY with modulus
+\end{itemize}
+\end{multicols}
+
+\section*{Power Direction and Sign Convention}
+\begin{itemize}
+    \item The half-arrow shows the \textbf{positive direction of power}.
+    \item If power flows in the direction of the arrow, it is considered \textbf{positive}.
+\end{itemize}
+
+\section*{Modeling Procedure}
+\begin{enumerate}
+    \item Identify all energy domains and storage/dissipation elements.
+    \item Determine effort and flow variables for each domain.
+    \item Connect components using appropriate junctions (0 or 1).
+    \item Assign causality using the stroke notation.
+    \item Validate the graph: ensure consistency and power conservation.
+\end{enumerate}
+
+\section*{Advantages}
+\begin{itemize}
+    \item Unified modeling approach for multi-domain systems.
+    \item Facilitates energy flow analysis.
+    \item Easily translated to system equations.
+\end{itemize}
+
+\section*{Conclusion}
+Bond graphs provide a powerful tool for modeling dynamic systems using a common language based on energy flow. Once learned, they enable fast and insightful system design and analysis.
+
+\end{document}

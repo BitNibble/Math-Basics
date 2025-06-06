@@ -1,0 +1,106 @@
+\documentclass[fleqn, a4paper,10pt]{article}
+\usepackage{amsmath}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+\titleformat{\section}{\small\bfseries}{\thesection.}{0.5em}{}
+
+\begin{document}
+\begin{center}
+    {\LARGE \textbf{Trigonometric Formulas Summary}} \\
+    \rule{\linewidth}{0.4pt}
+\end{center}
+
+\begin{multicols}{2}
+\small
+
+\section*{Basic Definitions}
+\[
+\begin{aligned}
+&\sin \theta = \frac{\text{opp}}{\text{hyp}} \quad
+\cos \theta = \frac{\text{adj}}{\text{hyp}} \quad
+\tan \theta = \frac{\text{opp}}{\text{adj}} \\
+&\csc \theta = \frac{1}{\sin \theta} \quad
+\sec \theta = \frac{1}{\cos \theta} \quad
+\cot \theta = \frac{1}{\tan \theta}
+\end{aligned}
+\]
+
+\section*{Pythagorean Identities}
+\[
+\begin{aligned}
+&\sin^2\theta + \cos^2\theta = 1 \\
+&1 + \tan^2\theta = \sec^2\theta \\
+&1 + \cot^2\theta = \csc^2\theta
+\end{aligned}
+\]
+
+\section*{Angle Sum/Difference}
+\[
+\begin{aligned}
+\sin(a \pm b) &= \sin a \cos b \pm \cos a \sin b \\
+\cos(a \pm b) &= \cos a \cos b \mp \sin a \sin b \\
+\tan(a \pm b) &= \frac{\tan a \pm \tan b}{1 \mp \tan a \tan b}
+\end{aligned}
+\]
+
+\section*{Double Angle}
+\[
+\begin{aligned}
+\sin 2\theta &= 2\sin\theta\cos\theta \\
+\cos 2\theta &= \cos^2\theta - \sin^2\theta \\
+&= 2\cos^2\theta - 1 = 1 - 2\sin^2\theta \\
+\tan 2\theta &= \frac{2\tan\theta}{1 - \tan^2\theta}
+\end{aligned}
+\]
+
+\section*{Half Angle}
+\[
+\begin{aligned}
+\sin^2\frac{\theta}{2} &= \frac{1 - \cos\theta}{2} \\
+\cos^2\frac{\theta}{2} &= \frac{1 + \cos\theta}{2} \\
+\tan\frac{\theta}{2} &= \frac{\sin\theta}{1 + \cos\theta} = \frac{1 - \cos\theta}{\sin\theta}
+\end{aligned}
+\]
+
+\section*{Product to Sum}
+\[
+\begin{aligned}
+\sin a \sin b &= \frac{1}{2}[\cos(a-b) - \cos(a+b)] \\
+\cos a \cos b &= \frac{1}{2}[\cos(a-b) + \cos(a+b)] \\
+\sin a \cos b &= \frac{1}{2}[\sin(a+b) + \sin(a-b)]
+\end{aligned}
+\]
+
+\section*{Sum to Product}
+\[
+\begin{aligned}
+\sin a + \sin b &= 2\sin\left(\frac{a+b}{2}\right)\cos\left(\frac{a-b}{2}\right) \\
+\sin a - \sin b &= 2\cos\left(\frac{a+b}{2}\right)\sin\left(\frac{a-b}{2}\right) \\
+\cos a + \cos b &= 2\cos\left(\frac{a+b}{2}\right)\cos\left(\frac{a-b}{2}\right) \\
+\cos a - \cos b &= -2\sin\left(\frac{a+b}{2}\right)\sin\left(\frac{a-b}{2}\right)
+\end{aligned}
+\]
+
+\section*{Law of Sines \& Cosines}
+\[
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}
+\quad
+c^2 = a^2 + b^2 - 2ab\cos C
+\]
+
+\section*{Euler's Formulas}
+\[
+\begin{aligned}
+&e^{ix} = \cos x + i\sin x \\
+&\cos x = \frac{e^{ix} + e^{-ix}}{2} \\
+&\sin x = \frac{e^{ix} - e^{-ix}}{2i}
+\end{aligned}
+\]
+
+\end{multicols}
+\end{document}

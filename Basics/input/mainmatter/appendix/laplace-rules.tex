@@ -1,0 +1,110 @@
+\documentclass[fleqn]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\setlength{\mathindent}{0pt} % flush left math
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Laplace Transform Rules \& Formulas}}\\[6pt]
+  \rule{\linewidth}{0.5pt}
+\end{center}
+
+\begin{multicols}{2}
+\small
+
+\section*{Definition}
+
+\[
+\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st} f(t) \, dt
+\]
+
+\section*{Linearity}
+
+\[
+\mathcal{L}\{a f(t) + b g(t)\} = a F(s) + b G(s)
+\]
+
+\section*{First Derivative}
+
+\[
+\mathcal{L}\{f'(t)\} = s F(s) - f(0)
+\]
+
+\section*{Second Derivative}
+
+\[
+\mathcal{L}\{f''(t)\} = s^2 F(s) - s f(0) - f'(0)
+\]
+
+\section*{Integral}
+
+\[
+\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\} = \frac{F(s)}{s}
+\]
+
+\section*{Shifting Theorems}
+
+\[
+\mathcal{L}\{e^{at} f(t)\} = F(s - a)
+\]
+
+\[
+\mathcal{L}\{f(t - a) u(t - a)\} = e^{-as} F(s)
+\]
+
+\section*{Common Transforms}
+
+\[
+\mathcal{L}\{1\} = \frac{1}{s}, \quad s > 0
+\]
+
+\[
+\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}, \quad n = 0,1,2,\ldots
+\]
+
+\[
+\mathcal{L}\{e^{at}\} = \frac{1}{s - a}, \quad s > a
+\]
+
+\[
+\mathcal{L}\{\sin(\omega t)\} = \frac{\omega}{s^2 + \omega^2}
+\]
+
+\[
+\mathcal{L}\{\cos(\omega t)\} = \frac{s}{s^2 + \omega^2}
+\]
+
+\[
+\mathcal{L}\{\sinh(\omega t)\} = \frac{\omega}{s^2 - \omega^2}
+\]
+
+\[
+\mathcal{L}\{\cosh(\omega t)\} = \frac{s}{s^2 - \omega^2}
+\]
+
+\section*{Convolution}
+
+\[
+\mathcal{L}\{f * g\} = F(s) G(s)
+\quad\text{where}\quad
+(f * g)(t) = \int_0^t f(\tau) g(t-\tau) d\tau
+\]
+
+\section*{Initial and Final Value Theorems}
+
+\[
+\lim_{t \to 0^+} f(t) = \lim_{s \to \infty} s F(s)
+\]
+
+\[
+\lim_{t \to \infty} f(t) = \lim_{s \to 0} s F(s)
+\quad \text{(if limit exists)}
+\]
+
+\end{multicols}
+
+\end{document}

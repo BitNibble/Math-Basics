@@ -1,0 +1,112 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{booktabs}
+\geometry{margin=1in}
+\setlength{\parskip}{0.5em}
+\setlength{\columnsep}{1cm}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Derivative Formulas}}
+\end{center}
+
+\begin{multicols}{2}
+
+\textbf{Basic Rules}
+\begin{itemize}
+  \item $\dfrac{d}{dx}(c) = 0$
+  \item $\dfrac{d}{dx}(x) = 1$
+  \item $\dfrac{d}{dx}[cf(x)] = c f'(x)$
+  \item $\dfrac{d}{dx}[f \pm g] = f' \pm g'$
+  \item $\dfrac{d}{dx}[fg] = f'g + fg'$
+  \item $\dfrac{d}{dx}\left[\dfrac{f}{g}\right] = \dfrac{f'g - fg'}{g^2}$
+\end{itemize}
+
+\textbf{Power and Roots}
+\begin{itemize}
+  \item $\dfrac{d}{dx}(x^n) = nx^{n-1}$
+  \item $\dfrac{d}{dx}(\sqrt{x}) = \dfrac{1}{2\sqrt{x}}$
+  \item $\dfrac{d}{dx}(x^{1/n}) = \dfrac{1}{n}x^{\frac{1}{n}-1}$
+\end{itemize}
+
+\textbf{Exponential and Logarithmic}
+\begin{itemize}
+  \item $\dfrac{d}{dx}(e^x) = e^x$
+  \item $\dfrac{d}{dx}(a^x) = a^x \ln a$
+  \item $\dfrac{d}{dx}(\ln x) = \dfrac{1}{x}$
+  \item $\dfrac{d}{dx}(\log_a x) = \dfrac{1}{x \ln a}$
+\end{itemize}
+
+\textbf{Trigonometric}
+\begin{itemize}
+  \item $\dfrac{d}{dx}(\sin x) = \cos x$
+  \item $\dfrac{d}{dx}(\cos x) = -\sin x$
+  \item $\dfrac{d}{dx}(\tan x) = \sec^2 x$
+  \item $\dfrac{d}{dx}(\cot x) = -\csc^2 x$
+  \item $\dfrac{d}{dx}(\sec x) = \sec x \tan x$
+  \item $\dfrac{d}{dx}(\csc x) = -\csc x \cot x$
+\end{itemize}
+
+\textbf{Inverse Trigonometric}
+\begin{itemize}
+  \item $\dfrac{d}{dx}(\sin^{-1}x) = \dfrac{1}{\sqrt{1 - x^2}}$
+  \item $\dfrac{d}{dx}(\cos^{-1}x) = -\dfrac{1}{\sqrt{1 - x^2}}$
+  \item $\dfrac{d}{dx}(\tan^{-1}x) = \dfrac{1}{1 + x^2}$
+  \item $\dfrac{d}{dx}(\cot^{-1}x) = -\dfrac{1}{1 + x^2}$
+  \item $\dfrac{d}{dx}(\sec^{-1}x) = \dfrac{1}{|x|\sqrt{x^2 - 1}}$
+  \item $\dfrac{d}{dx}(\csc^{-1}x) = -\dfrac{1}{|x|\sqrt{x^2 - 1}}$
+\end{itemize}
+
+\end{multicols}
+
+\newpage
+
+\begin{center}
+    {\LARGE \textbf{Integral Formulas}}
+\end{center}
+
+\begin{multicols}{2}
+
+\textbf{Basic Rules}
+\begin{itemize}
+  \item $\int c\,dx = cx + C$
+  \item $\int x^n\,dx = \dfrac{x^{n+1}}{n+1} + C \quad (n \neq -1)$
+  \item $\int \dfrac{1}{x}\,dx = \ln|x| + C$
+\end{itemize}
+
+\textbf{Exponential and Logarithmic}
+\begin{itemize}
+  \item $\int e^x\,dx = e^x + C$
+  \item $\int a^x\,dx = \dfrac{a^x}{\ln a} + C$
+  \item $\int \ln x\,dx = x\ln x - x + C$
+\end{itemize}
+
+\textbf{Trigonometric}
+\begin{itemize}
+  \item $\int \sin x\,dx = -\cos x + C$
+  \item $\int \cos x\,dx = \sin x + C$
+  \item $\int \tan x\,dx = -\ln|\cos x| + C$
+  \item $\int \cot x\,dx = \ln|\sin x| + C$
+  \item $\int \sec x\,dx = \ln|\sec x + \tan x| + C$
+  \item $\int \csc x\,dx = -\ln|\csc x + \cot x| + C$
+\end{itemize}
+
+\textbf{Inverse Trigonometric}
+\begin{itemize}
+  \item $\int \dfrac{1}{\sqrt{1 - x^2}}\,dx = \sin^{-1}x + C$
+  \item $\int \dfrac{1}{1 + x^2}\,dx = \tan^{-1}x + C$
+  \item $\int \dfrac{1}{x\sqrt{x^2 - 1}}\,dx = \sec^{-1}|x| + C$
+\end{itemize}
+
+\textbf{Hyperbolic (Optional)}
+\begin{itemize}
+  \item $\int \sinh x\,dx = \cosh x + C$
+  \item $\int \cosh x\,dx = \sinh x + C$
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

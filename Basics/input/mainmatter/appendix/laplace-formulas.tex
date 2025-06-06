@@ -1,0 +1,73 @@
+\documentclass[fleqn]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\setlength{\mathindent}{0pt} % flush left math
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Laplace Transform Formulas}}\\[6pt]
+  \rule{\linewidth}{0.5pt}
+\end{center}
+
+\begin{multicols}{2}
+\small
+
+\[
+\mathcal{L}\{1\} = \frac{1}{s}, \quad s>0
+\]
+
+\[
+\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}, \quad n=0,1,2,\dots
+\]
+
+\[
+\mathcal{L}\{e^{at}\} = \frac{1}{s - a}, \quad s > a
+\]
+
+\[
+\mathcal{L}\{\sin(\omega t)\} = \frac{\omega}{s^2 + \omega^2}
+\]
+
+\[
+\mathcal{L}\{\cos(\omega t)\} = \frac{s}{s^2 + \omega^2}
+\]
+
+\[
+\mathcal{L}\{\sinh(\omega t)\} = \frac{\omega}{s^2 - \omega^2}, \quad s > |\omega|
+\]
+
+\[
+\mathcal{L}\{\cosh(\omega t)\} = \frac{s}{s^2 - \omega^2}, \quad s > |\omega|
+\]
+
+\[
+\mathcal{L}\{t^n e^{at}\} = \frac{n!}{(s - a)^{n+1}}, \quad s > a
+\]
+
+\[
+\mathcal{L}\{u(t - a)\} = \frac{e^{-a s}}{s}, \quad a \ge 0
+\]
+
+\[
+\mathcal{L}\{(t - a)^n u(t - a)\} = \frac{n! e^{-a s}}{s^{n+1}}, \quad a \ge 0
+\]
+
+\[
+\mathcal{L}\{\delta(t - a)\} = e^{-a s}
+\]
+
+\[
+\mathcal{L}\{t \sin(\omega t)\} = \frac{2 \omega s}{(s^2 + \omega^2)^2}
+\]
+
+\[
+\mathcal{L}\{t \cos(\omega t)\} = \frac{s^2 - \omega^2}{(s^2 + \omega^2)^2}
+\]
+
+\end{multicols}
+
+\end{document}

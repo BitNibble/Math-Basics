@@ -1,0 +1,120 @@
+\documentclass[fleqn]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\setlength{\mathindent}{0pt} % flush left math
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Derivative Rules Cheat Sheet}}\\[6pt]
+  \rule{\linewidth}{0.5pt}
+\end{center}
+
+\begin{multicols}{2}
+\small
+
+\section*{Basic Rules}
+
+\[
+\frac{d}{dx}[c] = 0
+\quad\quad
+\frac{d}{dx}[x] = 1
+\]
+
+\[
+\frac{d}{dx}[x^n] = nx^{n-1} \quad (n \in \mathbb{R})
+\]
+
+\[
+\frac{d}{dx}[cf(x)] = c \frac{d}{dx}f(x)
+\]
+
+\[
+\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
+\]
+
+\section*{Product \& Quotient Rules}
+
+\[
+\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)
+\]
+
+\[
+\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] 
+= \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}
+\]
+
+\section*{Chain Rule}
+
+\[
+\frac{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)
+\]
+
+\section*{Derivatives of Common Functions}
+
+\[
+\frac{d}{dx}[\sin x] = \cos x
+\quad
+\frac{d}{dx}[\cos x] = -\sin x
+\]
+
+\[
+\frac{d}{dx}[\tan x] = \sec^2 x
+\quad
+\frac{d}{dx}[\cot x] = -\csc^2 x
+\]
+
+\[
+\frac{d}{dx}[\sec x] = \sec x \tan x
+\quad
+\frac{d}{dx}[\csc x] = -\csc x \cot x
+\]
+
+\[
+\frac{d}{dx}[e^x] = e^x
+\quad
+\frac{d}{dx}[a^x] = a^x \ln a
+\]
+
+\[
+\frac{d}{dx}[\ln x] = \frac{1}{x}
+\quad
+\frac{d}{dx}[\log_a x] = \frac{1}{x \ln a}
+\]
+
+\[
+\frac{d}{dx}[\sqrt{x}] = \frac{1}{2\sqrt{x}}
+\]
+
+\section*{Inverse Trigonometric Functions}
+
+\[
+\frac{d}{dx}[\sin^{-1} x] = \frac{1}{\sqrt{1 - x^2}}
+\]
+
+\[
+\frac{d}{dx}[\cos^{-1} x] = -\frac{1}{\sqrt{1 - x^2}}
+\]
+
+\[
+\frac{d}{dx}[\tan^{-1} x] = \frac{1}{1 + x^2}
+\]
+
+\[
+\frac{d}{dx}[\cot^{-1} x] = -\frac{1}{1 + x^2}
+\]
+
+\[
+\frac{d}{dx}[\sec^{-1} x] = \frac{1}{|x|\sqrt{x^2 - 1}}
+\]
+
+\[
+\frac{d}{dx}[\csc^{-1} x] = -\frac{1}{|x|\sqrt{x^2 - 1}}
+\]
+
+\end{multicols}
+
+\end{document}

@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\geometry{margin=0.85in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{Calculus Reference}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+
+\begin{document}
+
+\section*{Derivative Formulas}
+
+\subsection*{Basic Rules}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \frac{d}{dx}(c)$ & $= 0$ \\
+$\displaystyle \frac{d}{dx}(x)$ & $= 1$ \\
+$\displaystyle \frac{d}{dx}[cf(x)]$ & $= c \cdot f'(x)$ \\
+$\displaystyle \frac{d}{dx}[f \pm g]$ & $= f' \pm g'$ \\
+$\displaystyle \frac{d}{dx}[fg]$ & $= f'g + fg'$ \\
+$\displaystyle \frac{d}{dx}\left[\frac{f}{g}\right]$ & $= \frac{f'g - fg'}{g^2}$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Power and Root}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \frac{d}{dx}(x^n)$ & $= nx^{n-1}$ \\
+$\displaystyle \frac{d}{dx}(\sqrt{x})$ & $= \frac{1}{2\sqrt{x}}$ \\
+$\displaystyle \frac{d}{dx}(x^{1/n})$ & $= \frac{1}{n}x^{\frac{1}{n}-1}$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Exponential and Logarithmic}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \frac{d}{dx}(e^x)$ & $= e^x$ \\
+$\displaystyle \frac{d}{dx}(a^x)$ & $= a^x \ln a$ \\
+$\displaystyle \frac{d}{dx}(\ln x)$ & $= \frac{1}{x}$ \\
+$\displaystyle \frac{d}{dx}(\log_a x)$ & $= \frac{1}{x \ln a}$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Trigonometric}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \frac{d}{dx}(\sin x)$ & $= \cos x$ \\
+$\displaystyle \frac{d}{dx}(\cos x)$ & $= -\sin x$ \\
+$\displaystyle \frac{d}{dx}(\tan x)$ & $= \sec^2 x$ \\
+$\displaystyle \frac{d}{dx}(\cot x)$ & $= -\csc^2 x$ \\
+$\displaystyle \frac{d}{dx}(\sec x)$ & $= \sec x \tan x$ \\
+$\displaystyle \frac{d}{dx}(\csc x)$ & $= -\csc x \cot x$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Inverse Trigonometric}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \frac{d}{dx}(\sin^{-1}x)$ & $= \frac{1}{\sqrt{1 - x^2}}$ \\
+$\displaystyle \frac{d}{dx}(\cos^{-1}x)$ & $= -\frac{1}{\sqrt{1 - x^2}}$ \\
+$\displaystyle \frac{d}{dx}(\tan^{-1}x)$ & $= \frac{1}{1 + x^2}$ \\
+$\displaystyle \frac{d}{dx}(\cot^{-1}x)$ & $= -\frac{1}{1 + x^2}$ \\
+$\displaystyle \frac{d}{dx}(\sec^{-1}x)$ & $= \frac{1}{|x|\sqrt{x^2 - 1}}$ \\
+$\displaystyle \frac{d}{dx}(\csc^{-1}x)$ & $= -\frac{1}{|x|\sqrt{x^2 - 1}}$ \\
+\bottomrule
+\end{tabular}
+
+\newpage
+
+\section*{Integral Formulas}
+
+\subsection*{Basic Rules}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \int c\,dx$ & $= cx + C$ \\
+$\displaystyle \int x^n\,dx$ & $= \frac{x^{n+1}}{n+1} + C$ \quad ($n \ne -1$) \\
+$\displaystyle \int \frac{1}{x}\,dx$ & $= \ln|x| + C$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Exponential and Logarithmic}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \int e^x\,dx$ & $= e^x + C$ \\
+$\displaystyle \int a^x\,dx$ & $= \frac{a^x}{\ln a} + C$ \\
+$\displaystyle \int \ln x\,dx$ & $= x\ln x - x + C$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Trigonometric}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \int \sin x\,dx$ & $= -\cos x + C$ \\
+$\displaystyle \int \cos x\,dx$ & $= \sin x + C$ \\
+$\displaystyle \int \tan x\,dx$ & $= -\ln|\cos x| + C$ \\
+$\displaystyle \int \cot x\,dx$ & $= \ln|\sin x| + C$ \\
+$\displaystyle \int \sec x\,dx$ & $= \ln|\sec x + \tan x| + C$ \\
+$\displaystyle \int \csc x\,dx$ & $= -\ln|\csc x + \cot x| + C$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{Inverse Trigonometric}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \int \frac{1}{\sqrt{1 - x^2}}\,dx$ & $= \sin^{-1}x + C$ \\
+$\displaystyle \int \frac{1}{1 + x^2}\,dx$ & $= \tan^{-1}x + C$ \\
+$\displaystyle \int \frac{1}{x\sqrt{x^2 - 1}}\,dx$ & $= \sec^{-1}|x| + C$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1em}
+\subsection*{(Optional) Hyperbolic}
+\begin{tabular}{@{}ll@{}}
+\toprule
+$\displaystyle \int \sinh x\,dx$ & $= \cosh x + C$ \\
+$\displaystyle \int \cosh x\,dx$ & $= \sinh x + C$ \\
+\bottomrule
+\end{tabular}
+
+\end{document}
